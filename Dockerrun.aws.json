@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "bucket": "dockereb",
+    "key": ".dockercfg"
+  },
+  "Image": {
+    "Name": "heracl76/example:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "5000",
+      "HostPort": "5000"
+    }
+  ]
+}
