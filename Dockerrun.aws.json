@@ -1,9 +1,5 @@
 {
   "AWSEBDockerrunVersion": "1",
-  "Authentication": {
-    "bucket": "dockereb",
-    "key": ".dockercfg"
-  },
   "Image": {
     "Name": "yunyun28/dockereb.example.co.kr:latest",
     "Update": "true"
