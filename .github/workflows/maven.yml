@@ -50,7 +50,7 @@ jobs:
             docker push ${{ secrets.DOCKER_REPO }}:$IMAGE_TAG
 
       - name: Generate deployment package
-        run: zip -j ./deploy.zip Dockerrun.aws.json
+        run: zip -j ./deploy-v2.zip Dockerrun.aws.json
 
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21

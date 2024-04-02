@@ -5,7 +5,7 @@
     "key": ".dockercfg"
   },
   "Image": {
-    "Name": "heracl76/example:latest",
+    "Name": "yunyun28/dockereb.example.co.kr:latest",
     "Update": "true"
   },
   "Ports": [
